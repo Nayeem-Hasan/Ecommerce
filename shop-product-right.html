@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce</title>
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/jquery-ui.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/slicknav.min.css">
+  <link rel="stylesheet" href="assets/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  
+<!-- ==========preloader area========= -->
+<div class="preloader-container">
+  <img src="assets/img/Untitled.gif" alt="">
+</div>
+<!-- ==========preloader area========= -->
+<!-- quick-view==== -->
+<div class="modal custom-modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="detailed-gallery">
+              <span class="zoom-icon"><i class='bx bx-search'></i></span>
+              <div class="zoom-img-slider">
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-5-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="zoom-img-nav">
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-5-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="detail-info-table-cell">
+              <div class="detail-info">
+                <span class="sale-status">Sale Off</span>
+                <h3 class="title-detail"><a href="shop-product-right.html">Seeds of Change Organic Quinoa, Brown</a></h3>
+                <div class="product-rate">
+                  <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span>  (32 reviews) </span>
+                </div>
+                <div class="product-price-cover">
+                  <div class="price-box d-flex align-items-center">
+                    <span class="new-price">$38</span>
+                    <span class="d-flex flex-column">
+                      <span class="price-discount">26% Off</span>
+                    <span class="old-price"><del>$52</del></span>
+                    </span>
+                  </div>
+                </div>
+                <div class="detail-extralink">
+                  <div class="detail-qty">
+                    <a href="#" class="qty-down"><i class='bx bx-chevron-up'></i></a>
+                    <span class="qty-val">1</span>
+                    <a href="#" class="qty-up"><i class='bx bx-chevron-down'></i></a>
+                  </div>
+                  <div class="product-extra-link2">
+                    <button type="submit" class="button btn button-add-to-cart"><i class='bx bx-cart-alt'></i>Add to cart</button>
+                  </div>
+                </div>
+                <div class="detail-bottom">
+                  <ul>
+                    <li>Vendor: <span>Nest</span></li>
+                    <li>MFG: <span>Jun 4.2022</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Detail Info -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- quick-view==== -->
+<!-- =========header area start========= -->
+  <header>
+    <div class="header-mobile-promotion">
+      <div class="mobile-promotion">
+        <span>Grand opening, <strong>up to 15%</strong> off all items. Only <strong>3 days</strong> left</span>
+      </div>
+    </div>
+    <div class="header-top-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-xl-3">
+            <div class="header-info">
+              <ul>
+                <li><a href="page-about.html">About Us</a></li>
+                <li><a href="account.html">My Account</a></li>
+                <li><a href="shop-wishlist.html">Wishlist</a></li>
+                <li><a href="product-order.html">Order Tracking</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xl-6">
+            <div class="news-slider text-center">
+              <ul>
+                <li>100% Secure delivery without contacting the courier</li>
+                <li>Supper Value Deals - Save more with coupons</li>
+                <li>Trendy 25silver jewelry, save up 35% off today</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-xl-3">
+            <div class="header-info-right">
+              <ul>
+                <li>Need help?Call us: <span>+ 1800 900</span></li>
+                <li><a href="#">English <i class="fas fa-angle-down"></i></a>
+                  <ul class="header-info-dropdown">
+                    <li><a href="#"><img src="assets/img/flag-fr.png" alt="">Français</a></li>
+                    <li><a href="#"><img src="assets/img/flag-dt.png" alt="">Deutsch</a></li>
+                    <li><a href="#"><img src="assets/img/flag-ru.png" alt="">Pусский</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">USD <i class="fas fa-angle-down"></i></a>
+                  <ul class="header-info-dropdown">
+                    <li><a href="#"><img src="assets/img/flag-fr.png" alt="">INR</a></li>
+                    <li><a href="#"><img src="assets/img/flag-dt.png" alt="">MBP</a></li>
+                    <li><a href="#"><img src="assets/img/flag-ru.png" alt="">EU</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle-area">
+      <div class="container">
+        <div class="header-wrap d-flex">
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="assets/img/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="header-middle-right d-flex">
+            <div class="header-middle-search">
+              <form action="#">
+                <div class="select-drop-opt-btn">
+                  <a href="#" id="select-dropdown-opt" class="select-dropdown-opt">All Categories<i
+                      class='bx bx-chevron-down'></i></a>
+                  <div id="select-dropdown" class="select-dropdown select-dropdown-boxed">
+                    <input class="form-control select-filter-input" placeholder="Search..." role="searchbox"
+                      type="text">
+                    <div class="select-options-list">
+                      <option selected><a href="#">All Categories</a></option>
+                      <option value="Milks and Dairieis"><a href="#">Milks and Dairieis</a></option>
+                      <option value="Wines & Alcohol"><a href="#">Wines & Alcohol</a></option>
+                      <option value="Clothing & Beauty"><a href="#">Clothing & Beauty</a></option>
+                      <option value="Pet Foods & Toy"><a href="#">Pet Foods & Toy</a></option>
+                      <option value="Fast food"><a href="#">Fast food</a></option>
+                      <option value="Baking material"><a href="#">Baking material</a></option>
+                      <option value="Vegetables"><a href="#">Vegetables</a></option>
+                      <option value="Fresh Seafood"><a href="#">Fresh Seafood</a></option>
+                      <option value="Noodles & Rice"><a href="#">Noodles & Rice</a></option>
+                      <option value="Ice cream"><a href="#">Ice cream</a></option>
+                    </div>
+                  </div>
+                </div>
+                <input type="text" placeholder="Search for items...">
+              </form>
+            </div>
+            <div class="header-middle-right-action">
+              <div class="location-drop-opt-btn">
+                <form action="#">
+                  <a href="#" id="location-dropdown-opt" class="select-dropdown-opt"> <span><i
+                        class='bx bx-map'></i></span>Your Location<i class='bx bx-chevron-down'></i></a>
+                  <div id="location-dropdown" class="location-dropdown select-dropdown-boxed">
+                    <input class="form-control select-filter-input" placeholder="Search..." role="searchbox"
+                      type="text">
+                    <div class="select-options-list">
+                      <option selected><a href="#">Your Location</a></option>
+                      <option value="Alabama"><a href="#">Alabama</a></option>
+                      <option value="Alaska"><a href="#">Alaska</a></option>
+                      <option value="Arizona"><a href="#">Arizona</a></option>
+                      <option value="Delaware"><a href="#">Delaware</a></option>
+                      <option value="Florida"><a href="#">Florida</a></option>
+                      <option value="Georgia"><a href="#">Georgia</a></option>
+                      <option value="Hawaii"><a href="#">Hawaii</a></option>
+                      <option value="Indiana"><a href="#">Indiana</a></option>
+                      <option value="Maryland"><a href="#">Maryland</a></option>
+                      <option value="Nevada"><a href="#">Nevada</a></option>
+                      <option value="New Jersey"><a href="#">New Jersey</a></option>
+                      <option value="New Mexico"><a href="#">New Mexico</a></option>
+                      <option value="New York"><a href="#">New York</a></option>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- ==right-action button== -->
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="right-action-box d-flex">
+                      <i class='bx bx-sync'><span class="badges-count">3</span></i> Compare
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="right-action-box d-flex">
+                      <i class='bx bx-heart'><span class="badges-count">6</span></i>
+                      Wishlist
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="cart-item">
+                    <div class="right-action-box d-flex">
+                      <i class='bx bx-cart-alt'><span class="badges-count">2</span></i>
+                      cart
+                    </div>
+                  </a>
+                  <div class="cart-dropdown-wrap cart-dropdown-hm2">
+                    <ul>
+                      <li>
+                        <div class="shopping-cart-img">
+                          <a href="shop-product-right.html"><img alt="Nest" src="assets/img/thumbnail-3.jpg"></a>
+                        </div>
+                        <div class="shopping-cart-title">
+                          <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
+                          <h4><span>1 × </span>$800.00</h4>
+                        </div>
+                        <div class="shopping-cart-delete">
+                          <a href="#"><i class='bx bx-plus'></i></a>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shopping-cart-img">
+                          <a href="shop-product-right.html"><img alt="Nest" src="assets/img/thumbnail-2.jpg"></a>
+                        </div>
+                        <div class="shopping-cart-title">
+                          <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
+                          <h4><span>1 × </span>$3200.00</h4>
+                        </div>
+                        <div class="shopping-cart-delete">
+                          <a href="#"><i class='bx bx-plus'></i></a>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="shopping-cart-footer">
+                      <div class="shopping-cart-total">
+                        <h4>Total <span>$4000.00</span></h4>
+                      </div>
+                      <div class="shopping-cart-button">
+                        <a href="shop-cart.html" class="outline">View cart</a>
+                        <a href="shop-checkout.html">Checkout</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="user-box">
+                  <a href="#" class="user-item">
+                    <div class="right-action-box d-flex">
+                      <i class='bx bx-user'></i>
+                      Account
+                    </div>
+                  </a>
+                  <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
+                    <ul>
+                      <li>
+                        <a href="page-account.html"><i class='bx bx-user'></i></i>My Account</a>
+                      </li>
+                      <li>
+                        <a href="page-account.html"><i class='bx bx-map'></i>Order Tracking</a>
+                      </li>
+                      <li>
+                        <a href="page-account.html"><i class="bx bx-purchase-tag"></i>My Voucher</a>
+                      </li>
+                      <li>
+                        <a href="shop-wishlist.html"><i class='bx bx-heart'></i>My Wishlist</a>
+                      </li>
+                      <li>
+                        <a href="page-account.html"><i class="fas fa-sliders-h"></i>Setting</a>
+                      </li>
+                      <li>
+                        <a href="page-login.html"><i class="bx bx-log-out"></i>Sign out</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <!-- ==right-action button== -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom-part">
+      <div class="body-overlay"></div>
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- mobile action area==== -->
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="assets/img/logo.svg" alt="">
+          </a>
+        </div>
+        <div class="mobile-burger-menu">
+          <i class='bx bx-menu'></i>
+        </div>
+        <div class="header-action-right">
+          <ul>
+            <li>
+              <a href="#">
+                <div class="right-action-box d-flex">
+                  <i class='bx bx-heart'><span class="badges-count">6</span></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="cart-item">
+                <div class="right-action-box d-flex">
+                  <i class='bx bx-cart-alt'><span class="badges-count">2</span></i>
+                </div>
+              </a>
+              <div class="cart-dropdown-wrap cart-dropdown">
+                <ul>
+                  <li>
+                    <div class="shopping-cart-img">
+                      <a href="shop-product-right.html"><img alt="Nest" src="assets/img/thumbnail-3.jpg"></a>
+                    </div>
+                    <div class="shopping-cart-title">
+                      <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
+                      <h4><span>1 × </span>$800.00</h4>
+                    </div>
+                    <div class="shopping-cart-delete">
+                      <a href="#"><i class='bx bx-plus'></i></a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="shopping-cart-img">
+                      <a href="shop-product-right.html"><img alt="Nest" src="assets/img/thumbnail-2.jpg"></a>
+                    </div>
+                    <div class="shopping-cart-title">
+                      <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
+                      <h4><span>1 × </span>$3200.00</h4>
+                    </div>
+                    <div class="shopping-cart-delete">
+                      <a href="#"><i class='bx bx-plus'></i></a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="shopping-cart-footer">
+                  <div class="shopping-cart-total">
+                    <h4>Total <span>$4000.00</span></h4>
+                  </div>
+                  <div class="shopping-cart-button">
+                    <a href="shop-cart.html" class="outline">View cart</a>
+                    <a href="shop-checkout.html">Checkout</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile action area=== -->
+        <div class="header-bottom-left">
+          <div class="main-categories-wrap">
+            <div href="#" id="main-categories-box" class="main-categories-box">
+              <span><i class='bx bx-grid-alt'></i></span>
+              <span class="et">Browse</span>
+              All Categories
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div id="dropdown-main-categories" class="dropdown-main-categories">
+              <div class="dropdown-main-categories-innner d-flex">
+                <ul>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-1.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-2.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-3.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-4.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-5.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-1.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-2.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-3.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-4.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-5.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div id="more-cate-open" class="more-cate-open">
+                <ul>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-11.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-12.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-13.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                  <li>
+                    <a href="grid-product-right.html">
+                      <img src="assets/img/category-14.svg" alt="">
+                      Milks and Dairies
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div id="more-cate-btn" class="more-cate-btn">
+                <i class='bx bx-plus'></i>
+                <i class='bx bx-minus'></i>
+                <span>Show more</span>
+              </div>
+            </div>
+          </div>
+          <div class="main-menu-wrap">
+            <nav>
+              <ul>
+                <li class="hot-deals"><a href="grid-product-right.html"><i class="fas fa-fire-alt"></i>Deals</a></li>
+                <li><a href="index.html" class="active">Home<i class='bx bx-chevron-down'></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="index.html">Home 1</a></li>
+                    <li><a href="index-2.html">Home 2</a></li>
+                    <li><a href="index-3.html">Home 3</a></li>
+                    <li><a href="index-4.html">Home 4</a></li>
+                    <li><a href="index-5.html">Home 5</a></li>
+                    <li><a href="index-6.html">Home 6</a></li>
+                  </ul>
+                </li>
+                <li><a href="page-about.html">About</a></li>
+                <li><a href="#">Shop<i class='bx bx-chevron-down'></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="grid-product-right.html">Shop Grid – Right Sidebar</a></li>
+                    <li><a href="shop-grid-left.html">Shop Grid – Left Sidebar</a></li>
+                    <li><a href="shop-list-right.html">Shop List – Right Sidebar</a></li>
+                    <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
+                    <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
+                    <li>
+                      <a href="#">Single Product <i class='bx bx-chevron-right'></i></a>
+                      <ul class="sub-drop-menu">
+                        <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
+                        <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
+                        <li><a href="shop-product-full.html">Product – No sidebar</a></li>
+                        <li><a href="shop-product-vendor.html">Product – Vendor Info</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="shop-filter.html">Shop – Filter</a></li>
+                    <li><a href="shop-wishlist.html">Shop – Wishlist</a></li>
+                    <li><a href="shop-cart.html">Shop – Cart</a></li>
+                    <li><a href="shop-checkout.html">Shop – Checkout</a></li>
+                    <li><a href="shop-compare.html">Shop – Compare</a></li>
+                    <li>
+                      <a href="#">Shop Invoice<i class='bx bx-chevron-right'></i></a>
+                      <ul class="sub-drop-menu">
+                        <li><a href="shop-invoice-1.html">Shop Invoice 1</a></li>
+                        <li><a href="shop-invoice-2.html">Shop Invoice 2</a></li>
+                        <li><a href="shop-invoice-3.html">Shop Invoice 3</a></li>
+                        <li><a href="shop-invoice-4.html">Shop Invoice 4</a></li>
+                        <li><a href="shop-invoice-5.html">Shop Invoice 5</a></li>
+                        <li><a href="shop-invoice-6.html">Shop Invoice 6</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Vendors<i class='bx bx-chevron-down'></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="vendors-grid.html">Vendors Grid</a></li>
+                    <li><a href="vendors-list.html">Vendors List</a></li>
+                    <li><a href="vendor-details-1.html">Vendor Details 01</a></li>
+                    <li><a href="vendor-details-2.html">Vendor Details 02</a></li>
+                    <li><a href="vendor-dashboard.html">Vendor Dashboard</a></li>
+                    <li><a href="vendor-guide.html">Vendor Guide</a></li>
+                  </ul>
+                </li>
+                <li class="position-static"><a href="#">Megamenu<i class='bx bx-chevron-down'></i></a>
+                  <ul class="megamenu">
+                    <li class="megamenu-box-width"><a href="#">Fruit & Vegetables</a>
+                      <ul>
+                        <li><a href="right-product.html">Meat & Poultry</a></li>
+                        <li><a href="right-product.html">Fresh Vegetables</a></li>
+                        <li><a href="right-product.html">Herbs & Seasonings</a></li>
+                        <li><a href="right-product.html">Cuts & Sprouts</a></li>
+                        <li><a href="right-product.html">Exotic Fruits & Veggies</a></li>
+                        <li><a href="right-product.html">Packaged Produce</a></li>
+                      </ul>
+                    </li>
+                    <li class="megamenu-box-width"><a href="#">Breakfast & Dairy</a>
+                      <ul>
+                        <li><a href="right-product.html">Milk & Flavoured Milk</a></li>
+                        <li><a href="right-product.html">Butter and Margarine</a></li>
+                        <li><a href="right-product.html">Eggs Substitutes</a></li>
+                        <li><a href="right-product.html">Marmalades</a></li>
+                        <li><a href="right-product.html">Sour Cream</a></li>
+                        <li><a href="right-product.html">Cheese</a></li>
+                      </ul>
+                    </li>
+                    <li class="megamenu-box-width"><a href="#">Meat & Seafood</a>
+                      <ul>
+                        <li><a href="right-product.html">Breakfast Sausage</a></li>
+                        <li><a href="right-product.html">Dinner Sausage</a></li>
+                        <li><a href="right-product.html">Chicken</a></li>
+                        <li><a href="right-product.html">Sliced Deli Meat</a></li>
+                        <li><a href="right-product.html">Wild Caught Fillets</a></li>
+                        <li><a href="right-product.html">Crab and Shellfish</a></li>
+                      </ul>
+                    </li>
+                    <li class="megamenu-box-width">
+                      <div class="megamenu-banner">
+                        <a href="right-product.html"><img src="assets/img/banner-menu.png" alt=""></a>
+                        <div class="megamenu-banner-content">
+                          <h4>Hot deals</h4>
+                          <h3>Don't miss <br> Trending</h3>
+                          <div class="megamenu-banner-price">
+                            <span>Save to 50%</span>
+                          </div>
+                          <div class="megamenu-banner-btn">
+                            <a class="btn " href="shop-product-right.html">Shop now</a>
+                          </div>
+                        </div>
+                        <div class="megamenu-banner-discount">
+                          <h3>
+                            <span>25%</span>
+                            off
+                          </h3>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Blog<i class='bx bx-chevron-down'></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="blog-category-grid.html">Blog Category Grid</a></li>
+                    <li><a href="blog-category-list.html">Blog Category List</a></li>
+                    <li><a href="blog-category-big.html">Blog Category Big</a></li>
+                    <li><a href="blog-category-fullwidth.html">Blog Category Wide</a></li>
+                    <li>
+                      <a href="#">Single Post <i class='bx bx-chevron-right'></i></a>
+                      <ul class="sub-drop-menu sub-drop-menu-width">
+                        <li><a href="blog-post-left.html">Left Sidebar</a></li>
+                        <li><a href="blog-post-right.html">Right Sidebar</a></li>
+                        <li><a href="blog-post-fullwidth.html">No Sidebar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Pages<i class='bx bx-chevron-down'></i></a>
+                  <ul class="sub-menu">
+                    <li><a href="page-page-about.html">About Us</a></li>
+                    <li><a href="page-contact.html">Contact</a></li>
+                    <li><a href="page-account.html">My Account</a></li>
+                    <li><a href="page-login.html">Login</a></li>
+                    <li><a href="page-register.html">Register</a></li>
+                    <li><a href="page-forgot-password.html">Forgot password</a></li>
+                    <li><a href="page-reset-password.html">Reset password</a></li>
+                    <li><a href="page-purchase-guide.html">Purchase Guide</a></li>
+                    <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="page-terms.html">Terms of Service</a></li>
+                    <li><a href="page-404.html">404 Page</a></li>
+                  </ul>
+                </li>
+                <li><a href="page-contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="hotline d-lg-flex">
+          <i class="fas fa-headset"></i>
+          <p><span>1900 - 888</span>24/7 Support Center</p>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-navbar-area">
+
+      <div class="mobile-navbar-inner">
+        <div class="mobile-header-top">
+          <div class="mobile-header-logo">
+            <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+          </div>
+          <div class="mobile-menu-close">
+            <i class='bx bx-x'></i>
+          </div>
+        </div>
+        <div class="mobile-header-content-area">
+          <div class="mobile-search">
+            <form action="#">
+              <input type="text" placeholder="Search for items…">
+              <button type="submit"><i class='bx bx-search'></i></button>
+            </form>
+          </div>
+          <div class="mobile-menu-wrap">
+            <nav>
+              <ul class="mobile-menu">
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="index.html">Home</a>
+                  <ul class="dropdown">
+                    <li><a href="index.html">Home 1</a></li>
+                    <li><a href="index-2.html">Home 2</a></li>
+                    <li><a href="index-3.html">Home 3</a></li>
+                    <li><a href="index-4.html">Home 4</a></li>
+                    <li><a href="index-5.html">Home 5</a></li>
+                    <li><a href="index-6.html">Home 6</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="grid-product-right.html">shop</a>
+                  <ul class="dropdown">
+                    <li><a href="grid-product-right.html">Shop Grid – Right Sidebar</a></li>
+                    <li><a href="shop-grid-left.html">Shop Grid – Left Sidebar</a></li>
+                    <li><a href="shop-list-right.html">Shop List – Right Sidebar</a></li>
+                    <li><a href="shop-list-left.html">Shop List – Left Sidebar</a></li>
+                    <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
+                    <li class="menu-item-list">
+                      <span class="expand dd-expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Single Product</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="shop-product-right.html">Product – Right Sidebar</a></li>
+                        <li><a href="shop-product-left.html">Product – Left Sidebar</a></li>
+                        <li><a href="shop-product-full.html">Product – No sidebar</a></li>
+                        <li><a href="shop-product-vendor.html">Product – Vendor Infor</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="shop-filter.html">Shop – Filter</a></li>
+                    <li><a href="shop-wishlist.html">Shop – Wishlist</a></li>
+                    <li><a href="shop-cart.html">Shop – Cart</a></li>
+                    <li><a href="shop-checkout.html">Shop – Checkout</a></li>
+                    <li><a href="shop-compare.html">Shop – Compare</a></li>
+                    <li class="menu-item-list">
+                      <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Shop Invoice</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="shop-invoice-1.html">Shop Invoice 1</a></li>
+                        <li><a href="shop-invoice-2.html">Shop Invoice 2</a></li>
+                        <li><a href="shop-invoice-3.html">Shop Invoice 3</a></li>
+                        <li><a href="shop-invoice-4.html">Shop Invoice 4</a></li>
+                        <li><a href="shop-invoice-5.html">Shop Invoice 5</a></li>
+                        <li><a href="shop-invoice-6.html">Shop Invoice 6</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="#">Vendors</a>
+                  <ul class="dropdown dd-menu">
+                    <li><a href="vendors-grid.html">Vendors Grid</a></li>
+                    <li><a href="vendors-list.html">Vendors List</a></li>
+                    <li><a href="vendor-details-1.html">Vendor Details 01</a></li>
+                    <li><a href="vendor-details-2.html">Vendor Details 02</a></li>
+                    <li><a href="vendor-dashboard.html">Vendor Dashboard</a></li>
+                    <li><a href="vendor-guide.html">Vendor Guide</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="#">Mega menu</a>
+                  <ul class="dropdown dd-menu">
+                    <li class="menu-item-list">
+                      <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Women's Fashion</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="shop-product-right.html">Dresses</a></li>
+                        <li><a href="shop-product-right.html">Blouses & Shirts</a></li>
+                        <li><a href="shop-product-right.html">Hoodies & Sweatshirts</a></li>
+                        <li><a href="shop-product-right.html">Women's Sets</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-list">
+                      <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Men's Fashion</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="shop-product-right.html">Jackets</a></li>
+                        <li><a href="shop-product-right.html">Casual Faux Leather</a></li>
+                        <li><a href="shop-product-right.html">Genuine Leather</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-list">
+                      <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Technology</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="shop-product-right.html">Gaming Laptops</a></li>
+                        <li><a href="shop-product-right.html">Ultraslim Laptops</a></li>
+                        <li><a href="shop-product-right.html">Tablets</a></li>
+                        <li><a href="shop-product-right.html">Laptop Accessories</a></li>
+                        <li><a href="shop-product-right.html">Tablet Accessories</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="blog-category-fullwidth.html">Blog</a>
+                  <ul class="dropdown dd-menu">
+                    <li><a href="blog-category-grid.html">Blog Category Grid</a></li>
+                    <li><a href="blog-category-list.html">Blog Category List</a></li>
+                    <li><a href="blog-category-big.html">Blog Category Big</a></li>
+                    <li><a href="blog-category-fullwidth.html">Blog Category Wide</a></li>
+                    <li class="menu-item-list">
+                      <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                      <a href="#">Single Product Layout</a>
+                      <ul class="dropdown dd-menu">
+                        <li><a href="blog-post-left.html">Left Sidebar</a></li>
+                        <li><a href="blog-post-right.html">Right Sidebar</a></li>
+                        <li><a href="blog-post-fullwidth.html">No Sidebar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="#">Pages</a>
+                  <ul class="dropdown dd-menu">
+                    <li><a href="page-page-about.html">About Us</a></li>
+                    <li><a href="page-contact.html">Contact</a></li>
+                    <li><a href="page-account.html">My Account</a></li>
+                    <li><a href="page-login.html">Login</a></li>
+                    <li><a href="page-register.html">Register</a></li>
+                    <li><a href="page-forgot-password.html">Forgot password</a></li>
+                    <li><a href="page-reset-password.html">Reset password</a></li>
+                    <li><a href="page-purchase-guide.html">Purchase Guide</a></li>
+                    <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="page-terms.html">Terms of Service</a></li>
+                    <li><a href="page-404.html">404 Page</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-list">
+                  <span class="expand"><i class='bx bx-chevron-down'></i></span>
+                  <a href="#">Language</a>
+                  <ul class="dropdown dd-menu">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">French</a></li>
+                    <li><a href="#">German</a></li>
+                    <li><a href="#">Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mobile-header-info">
+            <ul>
+              <li>
+                <a href="page-contact.html"><i class='bx bx-map'></i>Our Location</a>
+              </li>
+              <li>
+                <a href="page-login.html"><i class='bx bx-user'></i>Log In / Sign Up </a>
+              </li>
+              <li>
+                <a href="#"><i class='bx bx-headphone'></i>(+01) - 2345 - 6789 </a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-icon">
+            <h6>Follow Us</h6>
+            <div class="icons-flex d-flex align-items-center">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-pinterest-alt'></i></a>
+              <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+          </div>
+          <div class="mobile-header-copyright">
+            Copyright 2022 © Nest. All rights reserved. Powered by Mehedi.
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- =========header area ends========= -->
+<!-- ======homepage breadcrumb area start===== -->
+<div class="page-banner-breadcrumb-area">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">
+        <i class='bx bx-home-alt'></i>
+        Home
+      </a>
+      <span><i class="fas fa-chevron-right"></i></span>
+      <a href="grid-product-right.html">Vegetables & tubers</a>
+      <span><i class="fas fa-chevron-right"></i>Seeds of Change Organic</span>
+    </div>
+  </div>
+</div>
+<!-- ===========homepage breadcrumb area ends==================== --> 
+
+<div class="home-3-area grid-right-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-11 col-lg-12 m-auto">
+        <div class="row">
+          <div class="col-lg-4-5">
+            <div class="container g-0">
+              <div class="row mb-50">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="detailed-gallery">
+                    <span class="zoom-icon"><i class='bx bx-search'></i></span>
+                    <div class="zoom-img-sliders zoom-img-slider">
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-1-1.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-1-2.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-10-1.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-10-2.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-5-1.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="zoom-img-navs zoom-img-nav">
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-1-1.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-1-2.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-10-1.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-10-2.jpg" alt="">
+                      </div>
+                      <div class="single-zoomed-slider">
+                        <img src="assets/img/product-5-1.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="detail-info-table-cell product-right">
+                    <div class="detail-info">
+                      <span class="sale-status">Sale Off</span>
+                      <h3 class="title-detail"><a href="shop-product-right.html">Seeds of Change Organic Quinoa, Brown</a></h3>
+                      <div class="product-rate">
+                        <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span>  (32 reviews) </span>
+                      </div>
+                      <div class="product-price-cover">
+                        <div class="price-box d-flex align-items-center">
+                          <span class="new-price">$38</span>
+                          <span class="d-flex flex-column">
+                            <span class="price-discount">26% Off</span>
+                          <span class="old-price"><del>$52</del></span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="product-descrip">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia, corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum eligendi.</p>
+                      </div>
+                      <div class="product-size-weight">
+                        <span>Size / Weight:</span>
+                        <ul>
+                          <li class="active"><a href="#">50g</a></li>
+                          <li><a href="#">60g</a></li>
+                          <li><a href="#">80g</a></li>
+                          <li><a href="#">100g</a></li>
+                          <li><a href="#">150g</a></li>
+                        </ul>
+                      </div>
+                      <div class="detail-extralink d-flex flex-column">
+                        <div class="detail-qty">
+                          <a href="#" class="qty-down"><i class='bx bx-chevron-up'></i></a>
+                          <span class="qty-val">1</span>
+                          <a href="#" class="qty-up"><i class='bx bx-chevron-down'></i></a>
+                        </div>
+                        <div class="product-extra-link2 d-flex align-items-center">
+                          <button type="submit" class="button btn button-add-to-cart"><i class='bx bx-cart-alt'></i>Add to cart</button>
+                          <a href="shop-wishlist.html" class="btn wish-btn"><i class='bx bx-heart'></i></a>
+                          <a href="compare.html" class="btn wish-btn"><i class="bx bx-shuffle"></i></a>
+                        </div>
+                      </div>
+                      <div class="detail-bottom d-flex justify-content-between">
+                        <ul>
+                          <li>Type: <span>Organic</span></li>
+                          <li>MFG: <span>Jun 4.2022</span></li>
+                          <li>LIFE: <span>70 days</span></li>
+                        </ul>
+                        <ul>
+                          <li>SKU: <span> FWM15VKT</span></li>
+                          <li>Tags: <span> Snack, Organic, Brown</span></li>
+                          <li>Stock: <span>8 Items In Stock</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Detail Info -->
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="info-tab-styles">
+                  <ul class="nav popular-product-list nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="descrip-tab" data-toggle="tab" href="#descrip" role="tab" aria-controls="descrip" aria-selected="true">Description</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Additional info</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="vendor-tab" data-toggle="tab" href="#vendor" role="tab" aria-controls="vendor" aria-selected="false">Vendor</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews (3)</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="descrip" role="tabpanel" aria-labelledby="descrip-tab">
+                      <div class="description-box">
+                        <p>Uninhibited carnally hired played in whimpered dear gorilla koala depending and much yikes off far quetzal goodness and from for grimaced goodness unaccountably and meadowlark near unblushingly crucial scallop tightly neurotic hungrily some and dear furiously this apart.</p>
+                        <p>Spluttered narrowly yikes left moth in yikes bowed this that grizzly much hello on spoon-fed that alas rethought much decently richly and wow against the frequent fluidly at formidable acceptably flapped besides and much circa far over the bucolically hey precarious goldfinch mastodon goodness gnashed a jellyfish and one however because.</p>
+                        <ul class="descrip-list">
+                          <li><span>Type Of Packing</span>Bottle</li>
+                          <li><span>Color</span>Green, Pink, Powder Blue, Purple</li>
+                          <li><span>Quantity Per Case</span>100ml</li>
+                          <li><span>Ethyl Alcohol</span>70%</li>
+                          <li><span>Piece In One</span>Carton</li>
+                        </ul>
+                        <hr>
+                        <p>Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello far meadowlark imitatively egregiously hugged that yikes minimally unanimous pouted flirtatiously as beaver beheld above forward energetic across this jeepers beneficently cockily less a the raucously that magic upheld far so the this where crud then below after jeez enchanting drunkenly more much wow callously irrespective limpet.</p>
+                        <h4>Packaging & Delivery</h4>
+                        <hr>
+                        <p>Less lion goodness that euphemistically robin expeditiously bluebird smugly scratched far while thus cackled sheepishly rigid after due one assenting regarding censorious while occasional or this more crane went more as this less much amid overhung anathematic because much held one exuberantly sheep goodness so where rat wry well concomitantly.</p>
+                        <p>Scallop or far crud plain remarkably far by thus far iguana lewd precociously and and less rattlesnake contrary caustic wow this near alas and next and pled the yikes articulate about as less cackled dalmatian in much less well jeering for the thanks blindly sentimental whimpered less across objectively fanciful grimaced wildly some wow and rose jeepers outgrew lugubrious luridly irrationally attractively dachshund.</p>
+                        <h4>Suggested Use</h4>
+                        <ul>
+                          <li>Refrigeration not necessary.</li>
+                          <li>Stir before serving</li>
+                        </ul>
+                        <h4>Other Ingredients</h4>
+                        <ul>
+                          <li>Organic raw pecans, organic raw cashews.</li>
+                          <li>This butter was produced using a LTG (Low Temperature Grinding) process</li>
+                          <li>Made in machinery that processes tree nuts but does not process peanuts, gluten, dairy or soy</li>
+                        </ul>
+                        <h4>Warnings</h4>
+                        <ul>
+                          <li>Oil separation occurs naturally. May contain pieces of shell.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+                      <table class="font-md">
+                        <tbody>
+                            <tr>
+                                <th>Stand Up</th>
+                                <td>
+                                    <p>35″L x 24″W x 37-45″H(front to back wheel)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Folded (w/o wheels)</th>
+                                <td>
+                                    <p>32.5″L x 18.5″W x 16.5″H</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Folded (w/ wheels)</th>
+                                <td>
+                                    <p>32.5″L x 24″W x 18.5″H</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Door Pass Through</th>
+                                <td>
+                                    <p>24</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Frame</th>
+                                <td>
+                                    <p>Aluminum</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Weight (w/o wheels)</th>
+                                <td>
+                                    <p>20 LBS</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Weight Capacity</th>
+                                <td>
+                                    <p>60 LBS</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Width</th>
+                                <td>
+                                    <p>24″</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Handle height (ground to handle)</th>
+                                <td>
+                                    <p>37-45″</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Wheels</th>
+                                <td>
+                                    <p>12″ air / wide track slick tread</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Seat back height</th>
+                                <td>
+                                    <p>21.5″</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Head room (inside canopy)</th>
+                                <td>
+                                    <p>25″</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Color</th>
+                                <td>
+                                    <p>Black, Blue, Red, White</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Size</th>
+                                <td>
+                                    <p>M, S</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div class="tab-pane fade" id="vendor" role="tabpanel" aria-labelledby="vendor-tab">
+                      <div class="vendor-area">
+                        <div class="vendor-logo d-flex align-items-center">
+                          <img src="assets/img/vendor-18.svg" alt="">
+                          <div class="vendor-info">
+                            <a href="vendor-details-2.html"><h6>Noodles Co.</h6></a>
+                            <div class="product-rate">
+                              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span>  (32 reviews) </span>
+                            </div>
+                          </div>
+                        </div>
+                        <ul>
+                          <li><i class='bx bx-map' ></i><span>Address: </span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</li>
+                          <li><i class='bx bx-headphone'></i><span>Contact </span> Seller:(+91) - 540-025-553</li>
+                        </ul>
+                        <div class="percantage-area d-flex">
+                          <div class="percant-box">
+                            <p>Rating</p>
+                            <h4>92%</h4>
+                          </div>
+                          <div class="percant-box">
+                            <p>Ship on time</p>
+                            <h4>100%</h4>
+                          </div>
+                          <div class="percant-box">
+                            <p>Chat response</p>
+                            <h4>89%</h4>
+                          </div>
+                        </div>
+                        <p>Noodles & Company is an American fast-casual restaurant that offers international and American noodle dishes and pasta in addition to soups and salads. Noodles & Company was founded in 1995 by Aaron Kennedy and is headquartered in Broomfield, Colorado. The company went public in 2013 and recorded a $457 million revenue in 2017.In late 2018, there were 460 Noodles & Company locations across 29 states and Washington, D.C. </p>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                      <div class="comments-area">
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <h4>Customer questions & answers</h4>
+                            <div class="comment-list">
+                              <div class="single-comment-box d-flex justify-content-between">
+                                <div class="thumb-area">
+                                  <img src="assets/img/author-2.png" alt="">
+                                  <h6>sienna</h6>
+                                </div>
+                                <div class="desc-area">
+                                  <div class="desc-top d-flex align-items-center justify-content-between">
+                                    <p>December 4, 2022 at 3:12 pm</p>
+                                    <div class="product-rate">
+                                      <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> 
+                                    </div>
+                                  </div>
+                                  <div class="desc-bottom">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, suscipit exercitationem accusantium obcaecati quos voluptate nesciunt facilis itaque modi commodi dignissimos sequi repudiandae minus ab deleniti totam officia id incidunt?<a href="#" class="reply">Reply</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="single-comment-box d-flex justify-content-between">
+                                <div class="thumb-area">
+                                  <img src="assets/img/author-3.png" alt="">
+                                  <h6>sienna</h6>
+                                </div>
+                                <div class="desc-area">
+                                  <div class="desc-top d-flex align-items-center justify-content-between">
+                                    <p>December 4, 2022 at 3:12 pm</p>
+                                    <div class="product-rate">
+                                      <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> 
+                                    </div>
+                                  </div>
+                                  <div class="desc-bottom">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, suscipit exercitationem accusantium obcaecati quos voluptate nesciunt facilis itaque modi commodi dignissimos sequi repudiandae minus ab deleniti totam officia id incidunt?<a href="#" class="reply">Reply</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="single-comment-box d-flex justify-content-between">
+                                <div class="thumb-area">
+                                  <img src="assets/img/author-4.png" alt="">
+                                  <h6>sienna</h6>
+                                </div>
+                                <div class="desc-area">
+                                  <div class="desc-top d-flex align-items-center justify-content-between">
+                                    <p>December 4, 2022 at 3:12 pm</p>
+                                    <div class="product-rate">
+                                      <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> 
+                                    </div>
+                                  </div>
+                                  <div class="desc-bottom">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, suscipit exercitationem accusantium obcaecati quos voluptate nesciunt facilis itaque modi commodi dignissimos sequi repudiandae minus ab deleniti totam officia id incidunt?<a href="#" class="reply">Reply</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">
+                            <h4>Customer reviews</h4>
+                            <div class="product-rate d-flex">
+                              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a>  
+                              <h6>4.8 out of 5</h6>
+                            </div>
+                            <div class="progress">
+                              <p>5 star</p>
+                              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            </div>
+                            <div class="progress">
+                              <p>4 star</p>
+                              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <div class="progress">
+                              <p>3 star</p>
+                              <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                            </div>
+                            <div class="progress">
+                              <p>2 star</p>
+                              <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                            <div class="progress mb-30">
+                              <p>1 star</p>
+                              <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+                            <a href="#" class="ratings-calculate">How are ratings calculated?</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="comment-form">
+                        <h4>Add a review</h4>
+                        <div class="product-rate d-flex">
+                          <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i></a>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-8 col-md-12">
+                            <form action="#">
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <textarea name="comment" id="" cols="30" rows="9" placeholder="Write Comment" class="form-control"></textarea>
+                                  </div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="form-group"><input type="text" name="name" id="name" placeholder="Name" class="form-control"></div>
+                                </div>
+                                <div class="col-sm-6">
+                                  <div class="form-group"><input type="email" name="email" id="name" placeholder="Email" class="form-control"></div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="form-group"><input type="text" id="website" placeholder="Website" class="form-control"></div>
+                                </div>
+                                <div class="form-group">
+                                  <button class="btn review-btn">Submit Review</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-60">
+                <div class="col-md-12">
+                  <div class="related-products-area">
+                    <h5 >Related products</h5>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="row related-product popular-products-area">
+                    <!-- ==6 -->
+                    <div class="col-lg-2-5 col-md-4">
+                      <div class="product-wrap-area">
+                        <div class="product-img-area">
+                          <div class="img-zoom">
+                            <a href="detail.html">
+                              <img src="assets/img/product-6-1.jpg" class="default-img" alt="">
+              
+                              <img src="assets/img/product-6-2.jpg" class="hovered-img" alt="">
+                            </a>
+                          </div>
+                          <div class="img-action-banner">
+                            <a href="shop-wishlist.html"><i class='bx bx-heart'></i></a>
+                            <a href="compare.html"><i class='bx bx-shuffle'></i></a>
+                            <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                          </div>
+                          <div class="product-badges">
+                            <span class="hot">Hot</span>
+                          </div>
+                        </div>
+                        <div class="product-details-area">
+                          <div class="product-categories">
+                            <a href="grid-product-right.html">Food</a>
+                          </div>
+                          <h5><a href="right-product.html">Ulstra Bass Headphone</a></h5>
+                          <div class="product-rate">
+                            <a href="#"><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star'></i></a> <span> (4.5)</span>
+                          </div>
+                          <div class="product-bottom-part d-flex">
+                            <div class="product-price d-flex flex-row">
+                              <span>$238.85</span>
+                              <span class="discount">$245.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ==7 -->
+                    <div class="col-lg-2-5 col-md-4">
+                      <div class="product-wrap-area">
+                        <div class="product-img-area">
+                          <div class="img-zoom">
+                            <a href="detail.html">
+                              <img src="assets/img/product-7-1.jpg" class="default-img" alt="">
+              
+                              <img src="assets/img/product-7-2.jpg" class="hovered-img" alt="">
+                            </a>
+                          </div>
+                          <div class="img-action-banner">
+                            <a href="shop-wishlist.html"><i class='bx bx-heart'></i></a>
+                            <a href="compare.html"><i class='bx bx-shuffle'></i></a>
+                            <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                          </div>
+                          <div class="product-badges">
+                            <span class="sale">-12%</span>
+                          </div>
+                        </div>
+                        <div class="product-details-area">
+                          <div class="product-categories">
+                            <a href="grid-product-right.html">Food</a>
+                          </div>
+                          <h5><a href="right-product.html">Smart Bluetooth Speaker</a></h5>
+                          <div class="product-rate">
+                            <a href="#"><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star'></i></a> <span> (4.5)</span>
+                          </div>
+                          <div class="product-bottom-part d-flex">
+                            <div class="product-price d-flex flex-row">
+                              <span>$138.85</span>
+                              <span class="discount">$145.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ==8 -->
+                    <div class="col-lg-2-5 col-md-4">
+                      <div class="product-wrap-area">
+                        <div class="product-img-area">
+                          <div class="img-zoom">
+                            <a href="detail.html">
+                              <img src="assets/img/product-8-1.jpg" class="default-img" alt="">
+              
+                              <img src="assets/img/product-8-2.jpg" class="hovered-img" alt="">
+                            </a>
+                          </div>
+                          <div class="img-action-banner">
+                            <a href="shop-wishlist.html"><i class='bx bx-heart'></i></a>
+                            <a href="compare.html"><i class='bx bx-shuffle'></i></a>
+                            <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                          </div>
+                          <div class="product-badges">
+                            <span class="new">New</span>
+                          </div>
+                        </div>
+                        <div class="product-details-area">
+                          <div class="product-categories">
+                            <a href="grid-product-right.html">Food</a>
+                          </div>
+                          <h5><a href="right-product.html">HomeSpeak 12UEA Goole</a></h5>
+                          <div class="product-rate">
+                            <a href="#"><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star'></i></a> <span> (4.5)</span>
+                          </div>
+                          <div class="product-bottom-part d-flex">
+                            <div class="product-price d-flex flex-row">
+                              <span>$738.85</span>
+                              <span class="discount">$1245.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- ==7 -->
+                    <div class="col-lg-2-5 col-md-4">
+                      <div class="product-wrap-area">
+                        <div class="product-img-area">
+                          <div class="img-zoom">
+                            <a href="detail.html">
+                              <img src="assets/img/product-7-1.jpg" class="default-img" alt="">
+              
+                              <img src="assets/img/product-7-2.jpg" class="hovered-img" alt="">
+                            </a>
+                          </div>
+                          <div class="img-action-banner">
+                            <a href="shop-wishlist.html"><i class='bx bx-heart'></i></a>
+                            <a href="compare.html"><i class='bx bx-shuffle'></i></a>
+                            <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                          </div>
+                          <div class="product-badges">
+                            <span class="hot">Hot</span>
+                          </div>
+                        </div>
+                        <div class="product-details-area">
+                          <div class="product-categories">
+                            <a href="grid-product-right.html">Food</a>
+                          </div>
+                          <h5><a href="right-product.html">Dadua Camera 4K 2022EF</a></h5>
+                          <div class="product-rate">
+                            <a href="#"><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star'></i></a> <span> (4.5)</span>
+                          </div>
+                          <div class="product-bottom-part d-flex">
+                            <div class="product-price d-flex flex-row">
+                              <span>$89.85</span>
+                              <span class="discount">$98.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-22-5">
+            <div class="primary-sidebar" id="primary-sidebar">
+              <div class="primary-sidebar-inner">
+                <div class="sidebar-box sidebar-categories">
+                  <h5>Category</h5>
+                  <ul>
+                    <li>
+                      <a href="grid-product-right.html">
+                        <img src="assets/img/category-1.svg" alt="">
+                        Milks and Dairies
+                      </a>
+                      <span class="count">30</span>
+                    </li>
+                    <li>
+                      <a href="grid-product-right.html">
+                        <img src="assets/img/category-2.svg" alt="">
+                        Clothing
+                      </a>
+                      <span class="count">35</span>
+                    </li>
+                    <li>
+                      <a href="grid-product-right.html">
+                        <img src="assets/img/category-3.svg" alt="">
+                        Pet Foods
+                      </a>
+                      <span class="count">42</span>
+                    </li>
+                    <li>
+                      <a href="grid-product-right.html">
+                        <img src="assets/img/category-4.svg" alt="">
+                        Baking Material
+                      </a>
+                      <span class="count">120</span>
+                    </li>
+                    <li>
+                      <a href="grid-product-right.html">
+                        <img src="assets/img/category-5.svg" alt="">
+                        Fresh Fruit
+                      </a>
+                      <span class="count">70</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sidebar-box price-range">
+                  <h5>Fill by Price</h5>
+                  <div class="price-range-slider">
+                    <div id="slider-range"></div>
+                    <div class="d-flex slider-range-caption justify-content-between">
+                      <div class="from">
+                        <label for="amount">From:</label>
+                        <input type="text" id="amount">
+                      </div>
+                      <div class="to">
+                        <label for="amount2">To:</label>
+                        <input type="text" id="amount2">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar-chekbox">
+                    <div class="check-color">
+                      <h6>color</h6>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-1">
+                        <label class="form-check-label" for="ex-1">
+                          Red (56)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-2">
+                        <label class="form-check-label" for="ex-2">
+                          Green (78)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-3">
+                        <label class="form-check-label" for="ex-3">
+                          Blue (54)
+                        </label>
+                      </div>
+                    </div>
+                    <div class="check-item">
+                      <h6>Item Condition</h6>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-4">
+                        <label class="form-check-label" for="ex-4">
+                          New (1506)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-5">
+                        <label class="form-check-label" for="ex-5">
+                          Refurbished (27)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="ex-6">
+                        <label class="form-check-label" for="ex-6">
+                          Used (45)
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="grid-product-right.html" class="btn filter-btn"><i class='bx bx-filter-alt'></i>Filter</a>
+                </div>
+                <div class="sidebar-box new-products-box">
+                  <h5>New products</h5>
+                  <ul>
+                    <li class="d-flex">
+                      <div class="products-img">
+                        <img src="assets/img/thumbnail-3.jpg" alt="">
+                      </div>
+                      <div class="listed-products">
+                        <a href="product-detail.html"><h4>Chen Cardigan</h4></a>
+                        <p>$59.90</p>
+                        <div class="product-rate">
+                          <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="products-img">
+                        <img src="assets/img/thumbnail-4.jpg" alt="">
+                      </div>
+                      <div class="listed-products">
+                        <a href="product-detail.html"><h4>Chen Sweater</h4></a>
+                        <p>$59.90</p>
+                        <div class="product-rate">
+                          <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="d-flex">
+                      <div class="products-img">
+                        <img src="assets/img/thumbnail-5.jpg" alt="">
+                      </div>
+                      <div class="listed-products">
+                        <a href="product-detail.html"><h4>Colorful Jacket</h4></a>
+                        <p>$59.90</p>
+                        <div class="product-rate">
+                          <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sidebar-banner-img">
+                  <img src="assets/img/banner-11.png" alt="">
+                  <div class="sidebar-banner-img-text">
+                    <p>Organic</p>
+                    <h4>Save 17% on <span>Oganic</span> Juice </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =======daily-best-sell area start========== -->
+<!-- ============newsletter-area start========= -->
+<div class="newsletter-area wow animate__animated animate__fadeInUp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="newsletter-box news-bg">
+          <div class="newsletter-content">
+            <h4>Stay home & get your daily <br> needs from our shop</h4>
+            <p>Start You'r Daily Shopping with <span>Nest Mart</span></p>
+            <div class="subscribe-input d-flex">
+              <form action="#" class="subscribe">
+                <i class='bx bx-paper-plane'></i>
+                <input type="email" placeholder="your email address" >
+                <button class="btn subs-btn" type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <img src="assets/img/banner-9.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============newsletter-area ends========= -->
+
+<!-- scroll top==== -->
+  <a href="#" id="scroll" class=""><i class='bx bx-arrow-back'></i></a>
+
+<!-- scroll top==== -->
+
+<!-- ===facilities area==== -->
+<div class="facilities-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-1-5">
+        <div class="single-box-facilities d-flex">
+          <div class="facilities-icon-img">
+            <img src="assets/img/icon-1.svg" alt="">
+          </div>
+          <div class="facilities-box-content">
+            <h5>Best prices & offers</h5>
+            <p>Orders $50 or more</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1-5">
+        <div class="single-box-facilities d-flex">
+          <div class="facilities-icon-img">
+            <img src="assets/img/icon-2.svg" alt="">
+          </div>
+          <div class="facilities-box-content">
+            <h5>Free delivery</h5>
+            <p>24/7 amazing services</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1-5">
+        <div class="single-box-facilities d-flex">
+          <div class="facilities-icon-img">
+            <img src="assets/img/icon-3.svg" alt="">
+          </div>
+          <div class="facilities-box-content">
+            <h5>Great daily deal</h5>
+            <p>When you sign up</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1-5">
+        <div class="single-box-facilities d-flex">
+          <div class="facilities-icon-img">
+            <img src="assets/img/icon-4.svg" alt="">
+          </div>
+          <div class="facilities-box-content">
+            <h5>Wide assortment</h5>
+            <p>Mega Discounts</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1-5">
+        <div class="single-box-facilities d-flex">
+          <div class="facilities-icon-img">
+            <img src="assets/img/icon-5.svg" alt="">
+          </div>
+          <div class="facilities-box-content">
+            <h5>Easy returns</h5>
+            <p>Within 30 days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ===facilities area==== -->
+
+<!-- ===========footer area start========== -->
+<footer class="footer-area wow animate__animated animate__fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="logo">
+            <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+            <p>awesome online store</p>
+          </div>
+          <ul class="contact-info">
+            <li><i class='bx bx-map'></i> <span>Address:</span>kawla, Dhaskhinkhan, Dhaka-1229.</li>
+            <li><i class='bx bx-phone-call'></i> <span>Call Us:</span>+880 1643-674867</li>
+            <li><i class='bx bx-paper-plane'></i> <span>Email:</span>sale@Nest.com</li>
+            <li><i class='bx bx-timer' ></i> <span>Time:</span>10.00 to 19.00 (sun to thu).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col footer-box-wrap wow animate__animated animate__fadeInUp" >
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Company</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col footer-box-wrap wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Account</h5>
+            <ul>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">View Cart</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">Track My Order</a></li>
+              <li><a href="#">Help Ticket</a></li>
+              <li><a href="#">Shipping Details</a></li>
+              <li><a href="#">Compare Products</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col footer-box-wrap wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Corporate</h5>
+            <ul>
+              <li><a href="#">Become a Vendor</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Farm Business</a></li>
+              <li><a href="#">Farm Careers</a></li>
+              <li><a href="#">Our Supliers</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Promotions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col footer-box-wrap wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Popular</h5>
+            <ul>
+              <li><a href="#">Become a Vendor</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Farm Business</a></li>
+              <li><a href="#">Farm Careers</a></li>
+              <li><a href="#">Our Supliers</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Promotions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col footer-box-wrap wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area apps-area">
+            <h5 class="footer-box-title">Install App</h5>
+            <p>from the app store or google play</p>
+            <div class="apps-img">
+              <a href="#"><img src="assets/img/app-store.jpg" alt=""></a>
+              <a href="#"><img src="assets/img/google-play.jpg" alt=""></a>
+            </div>
+            <div class="sucure-payment">
+            <p>secured Payment Gateways</p>
+            <a href="#"><img src="assets/img/payment-method.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foooter-bottom-part">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="copyright-text">© 2022, <span>Nest</span> - HTML Ecommerce Template <br>
+            All rights reserved</div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="hotline d-lg-flex">
+            <i class='bx bx-phone-call'></i>
+            <p><span>1900 - 666</span>Working 8:00 - 22:00</p>
+          </div>
+          <div class="hotline d-lg-flex">
+            <i class='bx bx-phone-call'></i>
+            <p><span>1900 - 888</span>24/7 Support Center</p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="social-icon d-flex align-items-center">
+            <h6>Follow Us</h6>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-pinterest-alt' ></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+          </div>
+          <p>Up to 15% discount on your first subscribe</p>
+        </div>
+    </div>
+  </div>
+</footer>
+<!-- ===========footer area ends========== -->
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/jquery-migrate-3.3.0.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/parallaxie.js"></script>
+<script src="assets/js/jquery.vticker.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/ResizeSensor.min.js"></script>
+<script src="assets/js/theia-sticky-sidebar.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
