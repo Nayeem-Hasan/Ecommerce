@@ -1,0 +1,113 @@
+.homepage-banner-6-area{
+  &.homepage-banner-area{
+    margin: 0;
+  }
+  background-image: url(assets/img/home-6-bg.jpg);
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .homepage-banner-content{
+    h4{
+      font-size: 40px;
+      color: $secondary-color;
+      font-weight: 700;
+      font-family: $secondary-font;
+      margin-bottom: 30px;
+    }
+    form{
+      background-color: #fff;
+      max-width: 450px;
+      border-radius: 50px;
+      box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.07);
+      margin-bottom: 30px;
+      &.form-subcriber{
+        position: relative;
+        justify-content: space-between;
+        &::before{
+          content: "\f1d8";
+          font-family: "Font Awesome 5 Free";
+          line-height: 1;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 25px;
+          width: 15px;
+          height: 15px;
+          color: $gray-text;
+        }
+        input{
+          border: 0;
+          border-radius: 50px 0 0 50px;
+          padding-left: 58px;
+        }
+        .home-form-btn{
+          padding: 15px 40px;
+          border: 0;
+          border-radius: 50px;
+          margin: 0;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    ul{
+      margin: 0;
+      display: flex;
+      li{
+        padding: 0 10px;
+        margin: 0 10px;
+        &:first-child{
+          padding-left: 0;
+          margin-left: 0;
+        }
+        &:last-child{
+          padding-right: 0;
+          margin-right: 0;
+        }
+        a{
+          transform: translateY(0px);
+          font-size: 14px;
+          color: $secondary-color;
+          transition: .5s;
+          display: block;
+          &:hover{
+            color: $primary-color;
+            transform: translateY(-5px);
+            transition: .5s;
+          }
+        }
+      }
+    }
+  }
+}
+.popular-trending-area{
+  margin-top: 100px;
+  &.popular-products-area{
+    padding: 0;
+    .popular-products-toppart{
+      padding-bottom: 0;
+      margin-bottom: 80px;
+    }
+  }
+}
+.day-deals-6-area{
+  margin-top: 100px;
+  &.day-deals-area{
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    .day-deals-top{
+      margin-bottom: 80px;
+      .day-deals-title{
+        h3{
+          font-size: 48px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

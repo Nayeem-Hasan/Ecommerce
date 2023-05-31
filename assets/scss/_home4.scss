@@ -1,0 +1,22 @@
+.homepage-banner-area{
+  &.homepage-4-banner-area{
+    .homepage-slider{
+      width: 100%;
+      .single-home-slider{
+        &.home-bg-5{
+          background-image: url(assets/img/slider-5.png);
+        }
+        &.home-bg-6{
+          background-image: url(assets/img/slider-6.png);
+        }
+        .slider-content{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,372 @@
+
+.account-details-area {
+  padding: 150px 0px;
+  .dashboard-menu {
+    .nav-tabs {
+      flex-direction: column;
+      border-bottom: 0;
+      .nav-item {
+        border: 1px solid #ececec;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        a {
+          font-size: 16px;
+          color: $gray-text;
+          padding: 15px 30px;
+          font-family: $secondary-font;
+          font-weight: 700;
+          align-items: center;
+          display: flex;
+          i {
+            color: $gray-text;
+            font-size: 24px;
+            opacity: 0.6;
+            margin-right: 10px;
+            font-weight: 600;
+            &.bx-log-out{
+              transform: rotate(180deg);
+            }
+          }
+        }
+        .nav-link{
+          &.active {
+            color: #fff;
+            background-color:  $primary-color;
+            border-radius: 10px;
+            border: 0;
+            i {
+              color: #fff;
+              opacity: 1;
+            }
+          }
+          &:hover {
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  .dashboard-content {
+    padding-left:50px;
+    .card {
+      border: 0;
+      .card-header {
+        border: 0;
+        background: none;
+        padding: 16px;
+        margin-bottom: 0;
+        h4 {
+          font-size: 32px;
+          margin-bottom: 0;
+        }
+        h5{
+          margin-bottom: 0;
+        }
+      }
+      .card-body{
+        .table{
+          thead{
+            tr{
+              th{
+                background-color:transparent;
+                padding:8px 8px;
+                font-size: 17px;
+                &:first-child{
+                  padding-left: 8px;
+                }
+              }
+            }
+          }
+          tbody{
+            tr{
+              td{
+                font-size: 14px;
+                &:first-child{
+                  padding-left:8px;
+                }
+              }
+            }
+          }
+        }
+        address {
+          color: #7E7E7E;
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+        .user-form{
+          margin-top: 10px;
+        }
+        .form-group {
+          margin-bottom: 20px;
+          label {
+            margin-bottom: 5px;
+            color: $gray-text;
+            opacity: 0.8;
+            font-size:15px;
+          }
+          input{
+            font-size: 14px;
+          }
+        }
+        .save-btn {
+          padding: 15px 40px;
+          font-size: 16px;
+          &:hover{
+            background:#29A56C;
+          }
+        }
+        .contact-form-area {
+          form {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            .form-group {
+              margin-bottom: 20px;
+              label {
+                margin-bottom: 5px;
+                color: $gray-text;
+                opacity: 0.8;
+                font-size:15px;
+              }
+              input{
+                font-size: 14px;
+              }
+            }
+            .track-btn {
+              background: $secondary-color;
+              padding: 20px 40px;
+              border: none;
+              font-size: 17px;
+              font-weight: 500;
+              &:hover{
+                background: $primary-color;
+              }
+            }
+          }
+          p {
+            margin-bottom: 5px;
+          }
+        }
+        a{
+           color: $primary-color;
+          &:hover{
+            color: $hover-box;
+          }
+        } 
+        p{
+          margin-bottom:0;
+        }
+      }
+    }
+  }
+}
+
+
+// login area ====
+
+.login-area {
+  padding: 150px 0px;
+  .login-img {
+    padding-right: 18px;
+    border-radius: 15px;
+    img {
+      border-radius: 15px;
+    }
+  }
+  .login-page-box{
+    .login-header {
+      margin-bottom: 30px;
+      h1 {
+        font-size: 48px;
+        margin-bottom: 5px;
+      }
+      p {
+        margin-bottom: 0;
+        font-size: 16px;
+        letter-spacing: 1px;
+        a {
+          color: $primary-color;
+          &:hover{
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+    .login-security {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      .form-group {
+        margin-bottom: 0;
+      }
+      .security-code {
+        display: inline-block;
+        border-radius: 10px;
+        height: 64px;
+        line-height: 64px;
+        padding: 0 40px;
+        font-size: 24px;
+        font-weight: bold;
+        background: $light-green;
+        b {
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .text-new {
+          color: #55bb90;
+        }
+        .text-hot {
+          color: #f74b81;
+        }
+        .text-blue {
+          color: #67bcee;
+        }
+        .text-best {
+          color: #f59758;
+        }
+      }
+    }
+      .login-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        a {
+          color: $gray-text;
+        }
+        .form-check {
+          padding-left: 0;
+        }
+      }
+      .login-page-btn {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        font-weight: 700;
+        border: 0;
+        padding: 15px 40px;
+        &:hover {
+          transform: translateY(-5px);
+          background: $primary-color;
+        }
+      }
+  }
+}
+
+// login area ends
+
+// contact page starts
+.contact-help{
+  padding:50px 0px;
+  .contact-know-box{
+    h4 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: $primary-color;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .contact-box{
+    .col-lg-6 {
+      margin-bottom: 24px;
+      &:nth-child(3){
+        margin-bottom: 0;
+        h5{
+          color: $primary-color;
+        }
+      }
+      &:nth-child(4){
+        margin-bottom: 0;
+      }
+    }
+    h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+.contact-locate {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  .locate-box{
+    h4 {
+      color: $primary-color;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .view-map-btn {
+      font-size: 14px;
+      border-radius: 5px;
+      &:hover {
+        border: 1px solid $primary-color;
+        transform: translateY(-5px);
+      }
+      i {
+        font-size: 14px;
+        margin-left: 0;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.drop-us-line {
+  margin-bottom: 50px;
+  .drop-us-contact-form {
+    h5 {
+      font-size: 20px;
+      color: $primary-color;
+      margin-bottom: 10px;
+    }
+    h3 {
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
+    p {
+      font-size: 14px;
+      color: #B6B6B6;
+      margin-bottom: 30px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .submit-btn {
+      font-size: 17px;
+      font-weight: 500;
+      padding: 20px 40px;
+      color: #ffffff;
+      border: none;
+      background-color: $secondary-color;
+      border-radius: 10px;
+      font-family: $secondary-font;
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
+  .drop-us-line-img {
+    margin-top: 50px;
+    border-radius: 15px;
+    img {
+      border-radius: 15px;
+    }
+  }
+}
+.pl-50{
+  padding-left: 50px;
+}
+// contact page ends
