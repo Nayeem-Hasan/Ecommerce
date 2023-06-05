@@ -35,6 +35,10 @@ $(".news-slider").vTicker({
 // news slider====
 
 // quickview slider====
+$('#exampleModalCenter').on('shown.bs.modal', function() {
+  $('.zoom-img-slider').slick('setPosition');
+  $('.zoom-img-nav').slick('setPosition');
+}); 
 $('#exampleModalCenter').on('shown.bs.modal', function () {
   $('.zoom-img-slider').slick({
     slidesToShow: 1,
